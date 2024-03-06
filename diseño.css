@@ -2,3 +2,9 @@ body{
     background-image: url(./assets/abstract-gradient-neon-lights.jpg);
     background-position: 30%;
 }
+
+#bginput{
+    background-color: #5b5b5b;
+    
+    color: white;
+}
