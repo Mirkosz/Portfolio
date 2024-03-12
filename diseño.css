@@ -1,3 +1,8 @@
+:root,
+[data-bs-theme=light] {
+    --bs-purple: #a7009d;
+}
+
 body{
     background-image: url(./assets/abstract-gradient-neon-lights.jpg);
     background-position: 30%;
@@ -5,6 +10,21 @@ body{
 
 #bginput{
     background-color: #5b5b5b;
-    
     color: white;
 }
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#btn1:hover{background-color: #780012 ;}
+#btn2:hover{background-color: #0e76a8 ;}
+#btn3:hover{background-color: #171515;}
+#btn4:hover{background-color: #1DB954;}
+
+.carrusel-inner{
+    
+}
+
+.skills:hover{}
