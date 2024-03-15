@@ -1,8 +1,3 @@
-:root,
-[data-bs-theme=light] {
-    --bs-purple: #a7009d;
-}
-
 body{
     background-image: url(./assets/abstract-gradient-neon-lights.jpg);
     background-position: 30%;
@@ -10,7 +5,7 @@ body{
 
 #bginput{
     background-color: #5b5b5b;
-    color: white;
+    color: yellow;
 }
 
 a{
@@ -18,13 +13,25 @@ a{
     color: white;
 }
 
-#btn1:hover{background-color: #780012 ;}
-#btn2:hover{background-color: #0e76a8 ;}
-#btn3:hover{background-color: #171515;}
-#btn4:hover{background-color: #1DB954;}
-
-.carrusel-inner{
-    
+#btn1:hover{
+    background-color: #780012;
+    box-shadow: 0 0 50px #780012;
+}
+#btn2:hover{
+    background-color: #0e76a8;
+    box-shadow: 0 0 50px #0e76a8;
+}
+#btn3:hover{
+    background-color: #171515;
+    box-shadow: 0 0 50px #171515;
+}
+#btn4:hover{
+    background-color: #1DB954;
+    box-shadow: 0 0 50px #1DB954;
 }
 
-.skills:hover{}
+.carrusel-inner{
+    height: 1000px;
+}
+
+#hab1:hover, #hab2:hover, #hab3:hover, #hab4:hover, #hab5:hover, #hab6:hover {box-shadow: 0 0 50px #a7009d;}
